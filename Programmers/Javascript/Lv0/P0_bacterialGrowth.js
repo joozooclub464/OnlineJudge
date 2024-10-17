@@ -20,3 +20,9 @@ Math.pow(밑값,지수);
 function solution(n,t) {
     return n*Math.pow(2,t);
 }
+/*
+거듭제곱 (밑**지수)
+*/
+function solution(n,t) {
+    return n*2**t;
+}
