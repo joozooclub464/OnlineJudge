@@ -4,9 +4,10 @@ import java.util.Scanner;
 public class Solution {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        
+// 1. 아스키코드 사용하여 대소문자 변경
         String a = sc.nextLine();
         char[] arr;
-// 1. 아스키코드 사용하여 대소문자 변경
         arr = a.toCharArray();
         
         for(int i=0; i<arr.length; ++i) {
@@ -22,7 +23,7 @@ public class Solution {
         System.out.print(arr);
         
 // 2. toUpperCase toLowerCase 사용하여 대소문자 변경
-      
+        String a = sc.next();
         char b = ' '; //char 선언 시 빈공백이 아닌 그냥 ''로 선언하여 오류 有
         String answer = "";
         
